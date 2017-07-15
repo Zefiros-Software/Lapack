@@ -1,0 +1,14 @@
+public:
+  libraries:
+    - name: Zefiros-Software/MKL
+      version: '@head'
+      settings:
+        blas95: true
+        core: true
+        intel: true
+        lapack95: true
+        rt: true
+        sequential: true
+        tbb: true
+configuration:
+  lapack: auto
